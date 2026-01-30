@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Oleksandr.dev - Portfolio Website
 
-## Getting Started
+A modern, professional portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Stack**: Built with Next.js 16, React 19, and TypeScript
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Performance**: Optimized for speed and SEO
+- **Type Safety**: Full TypeScript support with strict mode
+- **Styling**: Tailwind CSS v4 for modern, utility-first styling
+
+## 📁 Project Structure
+
+```
+oleksandr-dev/
+├── src/
+│   ├── app/              # Next.js App Router pages
+│   │   ├── layout.tsx    # Root layout with metadata
+│   │   ├── page.tsx      # Home page
+│   │   └── globals.css   # Global styles
+│   ├── components/       # React components
+│   │   ├── Capabilities.tsx
+│   │   ├── Divider.tsx
+│   │   ├── DualImage.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Portfolio.tsx
+│   │   └── Testimonials.tsx
+│   ├── constants/        # Shared constants and configuration
+│   │   └── index.ts
+│   ├── types/            # TypeScript type definitions
+│   │   └── index.ts
+│   └── utils/            # Utility functions
+│       └── index.ts
+├── public/               # Static assets
+└── ...config files
+```
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd oleksandr-dev
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
+
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+# Edit .env.local with your values
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
 # or
-bun dev
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-## Learn More
+## 🏗️ Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js](https://nextjs.org/) 16
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) v4
+- **UI Components**: Custom React components
 
-## Deploy on Vercel
+## 📝 Code Style
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- TypeScript strict mode enabled
+- ESLint configured with Next.js recommended rules
+- Components follow React best practices
+- Consistent naming conventions (PascalCase for components)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+This is a personal portfolio project. For suggestions or improvements, please open an issue.
+
+## 📄 License
+
+Private project - All rights reserved
+
+## 👤 Author
+
+**Oleksandr**
+- Email: oleksandr.lu11@gmail.com
+- Location: Dnipro, UA
+
+---
+
+Built with ❤️ using Next.js
